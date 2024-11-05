@@ -1,5 +1,32 @@
 h1 {
-    font-size: 48px;
-    color: #333;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Pealkirja vari */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    color: #FFC0CB;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 1); 
+    padding: 10px;
+}
+
+body {
+    background: #F9EDCC;
+}
+
+.button-container {
+    margin-top: 5px; /* Ruumi pealkirja ja nuppude vahel */
+}
+.button {
+    background-color: #DB7093; /* Roheline taust */
+    color: #FFF8DC; /* Valge tekst */
+    border: none; /* Ilma äärejooneta */
+    padding: 15px 25px; /* Padding nuppude ümber */
+    text-align: center; /* Teksti keskjoondus */
+    text-decoration: none; /* Ilma allajooneta */
+    display: inline-block; /* Nupud joonduvad üksteise kõrvale */
+    font-size: 20px; /* Fonti suurus */
+    margin: 5px; /* Vahe nuppude vahel */
+    border-radius: 10px; /* Ümarad nurgad */
+    cursor: pointer; /* Käsiikoon, kui hiirekursor on nupu peal */
+    transition: background-color 0.3s; /* Taustavärvi üleminek */
+}
+.button:hover {
+    background-color: #9b488c60; /* Tumeroheline hover-efekt */
 }
